@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/StatementReader/obj
+/StatementReader/bin/Debug/netstandard2.0
+/Test/obj
+/Test/bin/Debug/netcoreapp2.2
+/.vs/StatementReader/v16
+/.vs/StatementReader
