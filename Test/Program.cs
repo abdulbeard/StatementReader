@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StatementReader.Parsers;
+using System;
 
 namespace Test
 {
@@ -6,7 +7,9 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            var mccs = StatementReader.Mcc.Mcc.VisaCodes;
+            var parser = new BoAStatementParser();
+            var result = parser.Parse();
+            //var mccs = StatementReader.Mcc.Mcc.VisaCodes;
             Console.WriteLine("Hello World!");
         }
     }
